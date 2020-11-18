@@ -1,5 +1,14 @@
+<head>
+<title>Add To Home</title>
+...
+<link rel="stylesheet" type="text/css" href="../../style/addtohomescreen.css">
+<script src="../../src/addtohomescreen.js"></script>
+<script>
+addToHomescreen();
+</script>
+</head>
 ## Welcome to GitHub Pages
-
+/
 You can use the [editor on GitHub](https://github.com/andreylimatenda/testepwa/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
