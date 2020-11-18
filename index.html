@@ -1,5 +1,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript">
+  
+  // Register service worker to control making site work offline
+
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log('Service Worker Registered'); });
+}
+  
   let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
 addBtn.style.display = 'none';
