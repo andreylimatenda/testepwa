@@ -1,9 +1,5 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript">
-  let deferredPrompt;
-const addBtn = document.querySelector('.add-button');
-addBtn.style.display = 'none';
-</script>
+
 <button class="add-button">Add to home screen</button>
 
 <style>
@@ -13,6 +9,11 @@ addBtn.style.display = 'none';
   left: 1px;
 }
 </style>
+<script type="text/javascript">
+  let deferredPrompt;
+const addBtn = document.querySelector('.add-button');
+addBtn.style.display = 'none';
+</script>
 <script type="text/javascript">
   window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent Chrome 67 and earlier from automatically showing the prompt
