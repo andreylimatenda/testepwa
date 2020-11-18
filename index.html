@@ -1,11 +1,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript">
+<script type="text/javascript" defer>
   
   // Register service worker to control making site work offline
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
-           .register('/sw.js')
+           .register('sw.js')
            .then(function() { console.log('Service Worker Registered'); });
 }
   
